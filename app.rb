@@ -2,7 +2,8 @@ require_relative 'config/environment'
 
 class App < Sinatra::Base
 
-  self.get '/' do
+  get '/' do
+    binding.pry
     "Hello, World!"
   end
 
