@@ -1,9 +1,9 @@
 require_relative 'config/environment'
 
 class App < Sinatra::Base
-
+  
+  binding.pry
   get '/' do
-    binding.pry
     "Hello, World!"
   end
 
